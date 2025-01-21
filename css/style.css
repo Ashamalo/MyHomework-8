@@ -31,9 +31,13 @@ body {
     line-height: 50px;
 }
 
+.right {
+    float: right;
+}
+
 .medium-container {
     width: min(40% - 150px, 1340px);
-    margin: auto;
+    margin: 0 auto;
     padding: 5px;
 }
 
@@ -41,21 +45,7 @@ body {
     width: 150px;
     height: 75px;
     margin-left: 10px;
-}
-
-.small-container.right {
-    float: right;
     margin-bottom: 5px;
-}
-
-.center {
-    float: right;
-    margin: 0;
-    padding: 0;
-}
-
-.block.right, .large-block.right {
-    float: right;
 }
 
 .large-block {
